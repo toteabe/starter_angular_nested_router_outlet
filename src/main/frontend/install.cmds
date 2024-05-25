@@ -1,0 +1,9 @@
+cd src/main/frontend
+npm install -g @angular/cli
+ng new app-nested-router-outlet
+cd app-nested-router-outlet
+ng generate module dashboard --routing
+ng generate component dashboard
+ng generate component dashboard/tab1
+ng generate component dashboard/tab2
+

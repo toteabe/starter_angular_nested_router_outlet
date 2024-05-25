@@ -1,0 +1,6 @@
+<p>dashboard works!</p>
+<div>
+    <button (click)="currentTab = 'Tab1'">Tab1</button><button (click)="currentTab = 'Tab2'">Tab2</button>
+</div>
+<app-tab1 *ngIf="currentTab === 'Tab1'"></app-tab1>
+<app-tab2 *ngIf="currentTab === 'Tab2'"></app-tab2>
