@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import {Tab1Component} from "./tab1/tab1.component";
 import {Tab2Component} from "./tab2/tab2.component";
 import {NgIf} from "@angular/common";
+import {RouterLink, RouterOutlet} from "@angular/router";
 
 @Component({
   selector: 'app-dashboard',
@@ -9,7 +10,9 @@ import {NgIf} from "@angular/common";
   imports: [
     Tab1Component,
     Tab2Component,
-    NgIf
+    NgIf,
+    RouterOutlet,
+    RouterLink
   ],
   templateUrl: './dashboard.component.html',
   styleUrl: './dashboard.component.css'
