@@ -25,7 +25,7 @@ export class DashboardComponent implements OnInit  {
   //private activatedRoute = inject(ActivatedRoute);
 
   //Utilizo inyeccion por constructor de typescript
-  constructor(p private router: Router){}
+  constructor(private router: Router){}
   ngOnInit() {
     console.log("En este instante el componente ha cargado");
 
