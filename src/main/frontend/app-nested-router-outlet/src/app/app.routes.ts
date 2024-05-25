@@ -8,11 +8,8 @@ export const routes: Routes = [
     },
     {
         path: 'dashboard',
+        component: DashboardComponent,
         children: [
-            {
-                path: '',
-                component: DashboardComponent
-            },
             {
                 path: 'first',
                 component: Tab1Component
